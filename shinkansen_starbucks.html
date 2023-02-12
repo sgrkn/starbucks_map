@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bc55c3268ae043b6a3030fd50bbd6446 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bc55c3268ae043b6a3030fd50bbd6446" ></div>
+        
+</body>
+<script>    
+    
+            var map_bc55c3268ae043b6a3030fd50bbd6446 = L.map(
+                "map_bc55c3268ae043b6a3030fd50bbd6446",
+                {
+                    center: [35.72349, 139.749553],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5d85fa1a7c25441eaacbd3b1d14f111a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var marker_adc9ddeae5334432a370e93ff8a1d186 = L.marker(
+                [35.68062524, 139.7674799],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_84a9570daaa74071b7f4850a24faeff8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_adc9ddeae5334432a370e93ff8a1d186.setIcon(icon_84a9570daaa74071b7f4850a24faeff8);
+        
+    
+        var popup_1dcbdcb742524fb9ae229c6c69ec6e37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2f90a065dc44cb895175b697fc00542 = $(`<div id="html_a2f90a065dc44cb895175b697fc00542" style="width: 100.0%; height: 100.0%;">営業時間：06:30～21:30  無線LAN：あり</div>`)[0];
+            popup_1dcbdcb742524fb9ae229c6c69ec6e37.setContent(html_a2f90a065dc44cb895175b697fc00542);
+        
+
+        marker_adc9ddeae5334432a370e93ff8a1d186.bindPopup(popup_1dcbdcb742524fb9ae229c6c69ec6e37)
+        ;
+
+        
+    
+    
+            marker_adc9ddeae5334432a370e93ff8a1d186.bindTooltip(
+                `<div>
+                     【東京駅】JR東海　東京駅新幹線南ラチ内店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ad87236cff94a5f9d19c74604791fcd = L.marker(
+                [35.68015967, 139.7672942],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_3e456334789043029c2bffe645b9162d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_9ad87236cff94a5f9d19c74604791fcd.setIcon(icon_3e456334789043029c2bffe645b9162d);
+        
+    
+        var popup_21abe89915b34b7ea0e4ec5870d2e6e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2155e8a4af9347b9802c54f5450bcb62 = $(`<div id="html_2155e8a4af9347b9802c54f5450bcb62" style="width: 100.0%; height: 100.0%;">営業時間：07:00～23:00  無線LAN：なし</div>`)[0];
+            popup_21abe89915b34b7ea0e4ec5870d2e6e4.setContent(html_2155e8a4af9347b9802c54f5450bcb62);
+        
+
+        marker_9ad87236cff94a5f9d19c74604791fcd.bindPopup(popup_21abe89915b34b7ea0e4ec5870d2e6e4)
+        ;
+
+        
+    
+    
+            marker_9ad87236cff94a5f9d19c74604791fcd.bindTooltip(
+                `<div>
+                     【東京駅】東京駅エキュート京葉ストリート店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_431d5f4f98e248b8bfa4d05b48ff3938 = L.marker(
+                [35.63037734, 139.7406416],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_cb8e779447904285ab17eaee25cf030a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_431d5f4f98e248b8bfa4d05b48ff3938.setIcon(icon_cb8e779447904285ab17eaee25cf030a);
+        
+    
+        var popup_24689867c36d4dd6a35973d82a5aaaff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9c2e655b6be458fb52266fa070c7469 = $(`<div id="html_c9c2e655b6be458fb52266fa070c7469" style="width: 100.0%; height: 100.0%;">営業時間：月～金：06:00～21:30 土日祝：06:00～21:00  無線LAN：あり</div>`)[0];
+            popup_24689867c36d4dd6a35973d82a5aaaff.setContent(html_c9c2e655b6be458fb52266fa070c7469);
+        
+
+        marker_431d5f4f98e248b8bfa4d05b48ff3938.bindPopup(popup_24689867c36d4dd6a35973d82a5aaaff)
+        ;
+
+        
+    
+    
+            marker_431d5f4f98e248b8bfa4d05b48ff3938.bindTooltip(
+                `<div>
+                     【品川駅】JR東海　品川駅ラチ内店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9aaf268a7574b86863829b3f635bedf = L.marker(
+                [34.97176151, 138.3879019],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_2461b1b8678741d89975f8c165cfe4ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_f9aaf268a7574b86863829b3f635bedf.setIcon(icon_2461b1b8678741d89975f8c165cfe4ae);
+        
+    
+        var popup_d2a4ae0f0ad741808b5f0976612cb610 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b5e14664d92430dbfebc94cce5f03f1 = $(`<div id="html_3b5e14664d92430dbfebc94cce5f03f1" style="width: 100.0%; height: 100.0%;">営業時間：07:00～21:00  無線LAN：あり</div>`)[0];
+            popup_d2a4ae0f0ad741808b5f0976612cb610.setContent(html_3b5e14664d92430dbfebc94cce5f03f1);
+        
+
+        marker_f9aaf268a7574b86863829b3f635bedf.bindPopup(popup_d2a4ae0f0ad741808b5f0976612cb610)
+        ;
+
+        
+    
+    
+            marker_f9aaf268a7574b86863829b3f635bedf.bindTooltip(
+                `<div>
+                     【静岡駅】静岡駅 新幹線ラチ内店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2c031189f5a46f192e726c8b60b9f55 = L.marker(
+                [34.70397012, 137.7345952],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_12ac39c6af41477c88eab704992919a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_c2c031189f5a46f192e726c8b60b9f55.setIcon(icon_12ac39c6af41477c88eab704992919a6);
+        
+    
+        var popup_a1c8c29a195f47b2aec29fb69432b793 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_469cee8347124b529fd6cf5775f0dae8 = $(`<div id="html_469cee8347124b529fd6cf5775f0dae8" style="width: 100.0%; height: 100.0%;">営業時間：07:00～21:00  無線LAN：あり</div>`)[0];
+            popup_a1c8c29a195f47b2aec29fb69432b793.setContent(html_469cee8347124b529fd6cf5775f0dae8);
+        
+
+        marker_c2c031189f5a46f192e726c8b60b9f55.bindPopup(popup_a1c8c29a195f47b2aec29fb69432b793)
+        ;
+
+        
+    
+    
+            marker_c2c031189f5a46f192e726c8b60b9f55.bindTooltip(
+                `<div>
+                     【浜松駅】浜松駅 新幹線ラチ内店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad52611508714865bda10d91e7aad13d = L.marker(
+                [35.17020642, 136.8812698],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_8d03c09dac554b18977cc02044516f15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_ad52611508714865bda10d91e7aad13d.setIcon(icon_8d03c09dac554b18977cc02044516f15);
+        
+    
+        var popup_4cc09241863442918f5a691f0f455e66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_242d2756ba954273865bfa0fb05329fb = $(`<div id="html_242d2756ba954273865bfa0fb05329fb" style="width: 100.0%; height: 100.0%;">営業時間：06:45～22:00  無線LAN：あり</div>`)[0];
+            popup_4cc09241863442918f5a691f0f455e66.setContent(html_242d2756ba954273865bfa0fb05329fb);
+        
+
+        marker_ad52611508714865bda10d91e7aad13d.bindPopup(popup_4cc09241863442918f5a691f0f455e66)
+        ;
+
+        
+    
+    
+            marker_ad52611508714865bda10d91e7aad13d.bindTooltip(
+                `<div>
+                     【名古屋駅】JR名古屋駅 新幹線南ラチ内店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c514ce4e90234160847cef1bfef91db8 = L.marker(
+                [34.73404191, 135.5002493],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_f0ccd02e646a4217b33a997d2e338263 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_c514ce4e90234160847cef1bfef91db8.setIcon(icon_f0ccd02e646a4217b33a997d2e338263);
+        
+    
+        var popup_454c9747530946b2ab59e30c4a255513 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baf43f57d4e14588a9d02bffc25960a6 = $(`<div id="html_baf43f57d4e14588a9d02bffc25960a6" style="width: 100.0%; height: 100.0%;">営業時間：06:30～21:30  無線LAN：あり</div>`)[0];
+            popup_454c9747530946b2ab59e30c4a255513.setContent(html_baf43f57d4e14588a9d02bffc25960a6);
+        
+
+        marker_c514ce4e90234160847cef1bfef91db8.bindPopup(popup_454c9747530946b2ab59e30c4a255513)
+        ;
+
+        
+    
+    
+            marker_c514ce4e90234160847cef1bfef91db8.bindTooltip(
+                `<div>
+                     【新大阪駅】ＪＲ東海 新大阪駅新幹線ラチ内店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db9a885c0c0342d1b7a80e05a470fe0f = L.marker(
+                [34.98493061, 135.7595131],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_c82ba9d3624547538928b190de845085 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_db9a885c0c0342d1b7a80e05a470fe0f.setIcon(icon_c82ba9d3624547538928b190de845085);
+        
+    
+        var popup_66ddc7aa19b34e20bd86b7f8a18d48b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5077a6c19ed74592bbe95e9d509af839 = $(`<div id="html_5077a6c19ed74592bbe95e9d509af839" style="width: 100.0%; height: 100.0%;">営業時間：06:30～21:30  無線LAN：あり</div>`)[0];
+            popup_66ddc7aa19b34e20bd86b7f8a18d48b5.setContent(html_5077a6c19ed74592bbe95e9d509af839);
+        
+
+        marker_db9a885c0c0342d1b7a80e05a470fe0f.bindPopup(popup_66ddc7aa19b34e20bd86b7f8a18d48b5)
+        ;
+
+        
+    
+    
+            marker_db9a885c0c0342d1b7a80e05a470fe0f.bindTooltip(
+                `<div>
+                     【京都駅】JR京都駅 新幹線改札内店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb3f3781047045d393b8b7e79ea34b88 = L.marker(
+                [35.68117427, 139.7688103],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_8ad4408ae2784c74beb6d2802e4ad87b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_fb3f3781047045d393b8b7e79ea34b88.setIcon(icon_8ad4408ae2784c74beb6d2802e4ad87b);
+        
+    
+        var popup_58eaf24bd5f74acf802d339643a7009e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_510d531f227346f6ba2a0daf26e3a805 = $(`<div id="html_510d531f227346f6ba2a0daf26e3a805" style="width: 100.0%; height: 100.0%;">営業時間：06:30～22:30  無線LAN：あり</div>`)[0];
+            popup_58eaf24bd5f74acf802d339643a7009e.setContent(html_510d531f227346f6ba2a0daf26e3a805);
+        
+
+        marker_fb3f3781047045d393b8b7e79ea34b88.bindPopup(popup_58eaf24bd5f74acf802d339643a7009e)
+        ;
+
+        
+    
+    
+            marker_fb3f3781047045d393b8b7e79ea34b88.bindTooltip(
+                `<div>
+                     【東京駅】東京駅 グランルーフ フロント店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_116ed76e2b384108bd6db3928786b981 = L.marker(
+                [35.6801556, 139.7673141],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_9c9c5618f94d44d0acdc095fdcdb2a99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_116ed76e2b384108bd6db3928786b981.setIcon(icon_9c9c5618f94d44d0acdc095fdcdb2a99);
+        
+    
+        var popup_e02b1a00823b4fa28f1ac9b432d508ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40c09847ab8e4e299ab4ef1ad59df33c = $(`<div id="html_40c09847ab8e4e299ab4ef1ad59df33c" style="width: 100.0%; height: 100.0%;">営業時間：07:00～23:00  無線LAN：なし</div>`)[0];
+            popup_e02b1a00823b4fa28f1ac9b432d508ca.setContent(html_40c09847ab8e4e299ab4ef1ad59df33c);
+        
+
+        marker_116ed76e2b384108bd6db3928786b981.bindPopup(popup_e02b1a00823b4fa28f1ac9b432d508ca)
+        ;
+
+        
+    
+    
+            marker_116ed76e2b384108bd6db3928786b981.bindTooltip(
+                `<div>
+                     【東京駅】エキュート京葉ストリート店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e710c0cc79024e9db4c72e64aedf027d = L.marker(
+                [35.62925241, 139.7401588],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_e1461919ae874e219b0d6994fd7840fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_e710c0cc79024e9db4c72e64aedf027d.setIcon(icon_e1461919ae874e219b0d6994fd7840fd);
+        
+    
+        var popup_455a468c006946abaf8617000b12f329 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef644bff27d64fe4896a6df88547d56a = $(`<div id="html_ef644bff27d64fe4896a6df88547d56a" style="width: 100.0%; height: 100.0%;">営業時間：月～金：06:30～22:00 土日祝：07:00～22:00  無線LAN：あり</div>`)[0];
+            popup_455a468c006946abaf8617000b12f329.setContent(html_ef644bff27d64fe4896a6df88547d56a);
+        
+
+        marker_e710c0cc79024e9db4c72e64aedf027d.bindPopup(popup_455a468c006946abaf8617000b12f329)
+        ;
+
+        
+    
+    
+            marker_e710c0cc79024e9db4c72e64aedf027d.bindTooltip(
+                `<div>
+                     【品川駅】JR東海 品川駅店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bee6e4d1c7bb4e2ba3588779aff5483a = L.marker(
+                [35.50774534, 139.6172093],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_eca2fc30628f409bbec0edfbb48333d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_bee6e4d1c7bb4e2ba3588779aff5483a.setIcon(icon_eca2fc30628f409bbec0edfbb48333d9);
+        
+    
+        var popup_bbc4d9f8acaa4ee5853f81cb3bb7d6fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8340c2d47ba94d999d61bab50628878d = $(`<div id="html_8340c2d47ba94d999d61bab50628878d" style="width: 100.0%; height: 100.0%;">営業時間：07:00～21:00  無線LAN：あり</div>`)[0];
+            popup_bbc4d9f8acaa4ee5853f81cb3bb7d6fc.setContent(html_8340c2d47ba94d999d61bab50628878d);
+        
+
+        marker_bee6e4d1c7bb4e2ba3588779aff5483a.bindPopup(popup_bbc4d9f8acaa4ee5853f81cb3bb7d6fc)
+        ;
+
+        
+    
+    
+            marker_bee6e4d1c7bb4e2ba3588779aff5483a.bindTooltip(
+                `<div>
+                     【新横浜駅】キュービックプラザ新横浜3階店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_113b90253278435da8161c5e4525a420 = L.marker(
+                [35.50771477, 139.617273],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_26b5a68d403147a79b723ea0ce59d78b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_113b90253278435da8161c5e4525a420.setIcon(icon_26b5a68d403147a79b723ea0ce59d78b);
+        
+    
+        var popup_a1055f28eb774204ba3b31b2260802ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2a2bb5abdff468f84ddf98db0c81a77 = $(`<div id="html_d2a2bb5abdff468f84ddf98db0c81a77" style="width: 100.0%; height: 100.0%;">営業時間：07:00～21:00  無線LAN：なし</div>`)[0];
+            popup_a1055f28eb774204ba3b31b2260802ad.setContent(html_d2a2bb5abdff468f84ddf98db0c81a77);
+        
+
+        marker_113b90253278435da8161c5e4525a420.bindPopup(popup_a1055f28eb774204ba3b31b2260802ad)
+        ;
+
+        
+    
+    
+            marker_113b90253278435da8161c5e4525a420.bindTooltip(
+                `<div>
+                     【新横浜駅】キュービックプラザ新横浜2階店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d45603870d7e4450a0d23a00076ebe5d = L.marker(
+                [35.25659512, 139.1554653],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_608d1896da2041b286e6cba4e96e019a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_d45603870d7e4450a0d23a00076ebe5d.setIcon(icon_608d1896da2041b286e6cba4e96e019a);
+        
+    
+        var popup_014926662f9c4a5e9883c01627056eb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc40a4e0f96b4b239785848823433536 = $(`<div id="html_cc40a4e0f96b4b239785848823433536" style="width: 100.0%; height: 100.0%;">営業時間：06:30～22:00  無線LAN：あり</div>`)[0];
+            popup_014926662f9c4a5e9883c01627056eb8.setContent(html_cc40a4e0f96b4b239785848823433536);
+        
+
+        marker_d45603870d7e4450a0d23a00076ebe5d.bindPopup(popup_014926662f9c4a5e9883c01627056eb8)
+        ;
+
+        
+    
+    
+            marker_d45603870d7e4450a0d23a00076ebe5d.bindTooltip(
+                `<div>
+                     【小田原駅】JR東海 小田原駅店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a8a9de28d48407893e6550be88f8f99 = L.marker(
+                [34.97178785, 138.389082],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_7f1451ae1ce04aa282667849a863f362 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_1a8a9de28d48407893e6550be88f8f99.setIcon(icon_7f1451ae1ce04aa282667849a863f362);
+        
+    
+        var popup_9cbf43fc5ec44a6fa051113b2bab4d98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8176afd5ff14468c8708cacf92627b9e = $(`<div id="html_8176afd5ff14468c8708cacf92627b9e" style="width: 100.0%; height: 100.0%;">営業時間：07:00～22:00  無線LAN：あり</div>`)[0];
+            popup_9cbf43fc5ec44a6fa051113b2bab4d98.setContent(html_8176afd5ff14468c8708cacf92627b9e);
+        
+
+        marker_1a8a9de28d48407893e6550be88f8f99.bindPopup(popup_9cbf43fc5ec44a6fa051113b2bab4d98)
+        ;
+
+        
+    
+    
+            marker_1a8a9de28d48407893e6550be88f8f99.bindTooltip(
+                `<div>
+                     【静岡駅】ASTY静岡 西館店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8610f3b654e245e19ddbc36f6539470b = L.marker(
+                [34.70402304, 137.7345737],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_1973ffe1cc9c4a08976e2c854ea45eaa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_8610f3b654e245e19ddbc36f6539470b.setIcon(icon_1973ffe1cc9c4a08976e2c854ea45eaa);
+        
+    
+        var popup_e016fc1e100a496cb647abbfb21611db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_584b3a5629e9449b86e4220397ef6c31 = $(`<div id="html_584b3a5629e9449b86e4220397ef6c31" style="width: 100.0%; height: 100.0%;">営業時間：07:00～22:00  無線LAN：あり</div>`)[0];
+            popup_e016fc1e100a496cb647abbfb21611db.setContent(html_584b3a5629e9449b86e4220397ef6c31);
+        
+
+        marker_8610f3b654e245e19ddbc36f6539470b.bindPopup(popup_e016fc1e100a496cb647abbfb21611db)
+        ;
+
+        
+    
+    
+            marker_8610f3b654e245e19ddbc36f6539470b.bindTooltip(
+                `<div>
+                     【浜松駅】浜松 メイワン エキマチウエスト店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d974ab640504554b833bf41196c4752 = L.marker(
+                [35.17237926, 136.8826593],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_a1df3fd6cdf54d089d951e52965aa9dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_4d974ab640504554b833bf41196c4752.setIcon(icon_a1df3fd6cdf54d089d951e52965aa9dc);
+        
+    
+        var popup_1b1c8ee2c3034c8b8aaea8e263614104 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0db8102e7604456f91568c17b894b64a = $(`<div id="html_0db8102e7604456f91568c17b894b64a" style="width: 100.0%; height: 100.0%;">営業時間：07:00～22:00  無線LAN：あり</div>`)[0];
+            popup_1b1c8ee2c3034c8b8aaea8e263614104.setContent(html_0db8102e7604456f91568c17b894b64a);
+        
+
+        marker_4d974ab640504554b833bf41196c4752.bindPopup(popup_1b1c8ee2c3034c8b8aaea8e263614104)
+        ;
+
+        
+    
+    
+            marker_4d974ab640504554b833bf41196c4752.bindTooltip(
+                `<div>
+                     【名古屋駅】名古屋 タカシマヤ ゲートタワーモール店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c043db1574174ad3bebe97662b4c86cf = L.marker(
+                [35.1693597, 136.8815656],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_344576c16fe64582845554971daa1c2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_c043db1574174ad3bebe97662b4c86cf.setIcon(icon_344576c16fe64582845554971daa1c2a);
+        
+    
+        var popup_654c063bd0494012a548879ff1935ab6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b26e614d27294109b5fa8b34857051af = $(`<div id="html_b26e614d27294109b5fa8b34857051af" style="width: 100.0%; height: 100.0%;">営業時間：07:00～22:00  無線LAN：あり</div>`)[0];
+            popup_654c063bd0494012a548879ff1935ab6.setContent(html_b26e614d27294109b5fa8b34857051af);
+        
+
+        marker_c043db1574174ad3bebe97662b4c86cf.bindPopup(popup_654c063bd0494012a548879ff1935ab6)
+        ;
+
+        
+    
+    
+            marker_c043db1574174ad3bebe97662b4c86cf.bindTooltip(
+                `<div>
+                     【名古屋駅】ＪＲ名古屋駅 太閤通南口店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b482c121e264338a80cb4ee581dbc89 = L.marker(
+                [35.17004872, 136.8825583],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_18fb5df6255c497d8f31ae4d9928b81d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_1b482c121e264338a80cb4ee581dbc89.setIcon(icon_18fb5df6255c497d8f31ae4d9928b81d);
+        
+    
+        var popup_20b537c655d34ce3af1309ea7dcf3169 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a2932ef6ee24b639c860a054180b9b1 = $(`<div id="html_0a2932ef6ee24b639c860a054180b9b1" style="width: 100.0%; height: 100.0%;">営業時間：07:00～22:00  無線LAN：あり</div>`)[0];
+            popup_20b537c655d34ce3af1309ea7dcf3169.setContent(html_0a2932ef6ee24b639c860a054180b9b1);
+        
+
+        marker_1b482c121e264338a80cb4ee581dbc89.bindPopup(popup_20b537c655d34ce3af1309ea7dcf3169)
+        ;
+
+        
+    
+    
+            marker_1b482c121e264338a80cb4ee581dbc89.bindTooltip(
+                `<div>
+                     【名古屋駅】JR名古屋駅　広小路口店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4ba6cfaba424f69ac94b55bc6b465c1 = L.marker(
+                [34.73465712, 135.5016269],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_0cfc3f114c074a139d092a2d52dfc3cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_a4ba6cfaba424f69ac94b55bc6b465c1.setIcon(icon_0cfc3f114c074a139d092a2d52dfc3cb);
+        
+    
+        var popup_b4ae8dd51d644d1fa129e65b652811db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_083e741040b1402d8de99a3f2adfdd2c = $(`<div id="html_083e741040b1402d8de99a3f2adfdd2c" style="width: 100.0%; height: 100.0%;">営業時間：06:30～22:00  無線LAN：なし</div>`)[0];
+            popup_b4ae8dd51d644d1fa129e65b652811db.setContent(html_083e741040b1402d8de99a3f2adfdd2c);
+        
+
+        marker_a4ba6cfaba424f69ac94b55bc6b465c1.bindPopup(popup_b4ae8dd51d644d1fa129e65b652811db)
+        ;
+
+        
+    
+    
+            marker_a4ba6cfaba424f69ac94b55bc6b465c1.bindTooltip(
+                `<div>
+                     【新大阪駅】エキマルシェ新大阪店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5aa281a72fc4aeb813c3ee9d2b0f2e2 = L.marker(
+                [34.73324837, 135.500303],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_5d5c8da2ad55422f8ece46f18dc828fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_f5aa281a72fc4aeb813c3ee9d2b0f2e2.setIcon(icon_5d5c8da2ad55422f8ece46f18dc828fb);
+        
+    
+        var popup_9446e97a86f64ea980e842c6c44bf503 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48ce37c0d9df494db748aff278131db9 = $(`<div id="html_48ce37c0d9df494db748aff278131db9" style="width: 100.0%; height: 100.0%;">営業時間：06:30～22:00  無線LAN：あり</div>`)[0];
+            popup_9446e97a86f64ea980e842c6c44bf503.setContent(html_48ce37c0d9df494db748aff278131db9);
+        
+
+        marker_f5aa281a72fc4aeb813c3ee9d2b0f2e2.bindPopup(popup_9446e97a86f64ea980e842c6c44bf503)
+        ;
+
+        
+    
+    
+            marker_f5aa281a72fc4aeb813c3ee9d2b0f2e2.bindTooltip(
+                `<div>
+                     【新大阪駅】JR新大阪アルデ店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2b0f4dc61fa7455aa0e9c619c0ed872e = L.marker(
+                [34.98489521, 135.7580858],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_e9a37856b41e456c82e38b9edb0dda7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_2b0f4dc61fa7455aa0e9c619c0ed872e.setIcon(icon_e9a37856b41e456c82e38b9edb0dda7c);
+        
+    
+        var popup_86d8a96077324d7ba3c9fb22716e148c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_413e6a18585a4cfab6e46688c0be4128 = $(`<div id="html_413e6a18585a4cfab6e46688c0be4128" style="width: 100.0%; height: 100.0%;">営業時間：07:00～22:00  無線LAN：あり</div>`)[0];
+            popup_86d8a96077324d7ba3c9fb22716e148c.setContent(html_413e6a18585a4cfab6e46688c0be4128);
+        
+
+        marker_2b0f4dc61fa7455aa0e9c619c0ed872e.bindPopup(popup_86d8a96077324d7ba3c9fb22716e148c)
+        ;
+
+        
+    
+    
+            marker_2b0f4dc61fa7455aa0e9c619c0ed872e.bindTooltip(
+                `<div>
+                     【京都駅】JR京都駅 新幹線中央口店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ce1abdb790f4221bbf57ba56641b8f2 = L.marker(
+                [34.48936193, 133.3625248],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_ec25228c637d4e6cb3cec5fa58bdb572 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_8ce1abdb790f4221bbf57ba56641b8f2.setIcon(icon_ec25228c637d4e6cb3cec5fa58bdb572);
+        
+    
+        var popup_3824775161104efdb6969f2dd976b0a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0be50788611f4089bab53d0289a34a84 = $(`<div id="html_0be50788611f4089bab53d0289a34a84" style="width: 100.0%; height: 100.0%;">営業時間：07:00～21:30  無線LAN：あり</div>`)[0];
+            popup_3824775161104efdb6969f2dd976b0a5.setContent(html_0be50788611f4089bab53d0289a34a84);
+        
+
+        marker_8ce1abdb790f4221bbf57ba56641b8f2.bindPopup(popup_3824775161104efdb6969f2dd976b0a5)
+        ;
+
+        
+    
+    
+            marker_8ce1abdb790f4221bbf57ba56641b8f2.bindTooltip(
+                `<div>
+                     【福山駅】JR福山駅店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ea519aaca9bd4fefa6a2debe31ce497a = L.marker(
+                [34.3978589, 132.4759643],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_505bf6670daf45a287898f56688e8adc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_ea519aaca9bd4fefa6a2debe31ce497a.setIcon(icon_505bf6670daf45a287898f56688e8adc);
+        
+    
+        var popup_35dbd5eacb7d4f2dafc86a4f4060a5e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bbedfe985bc43a393dd584c742ec03e = $(`<div id="html_6bbedfe985bc43a393dd584c742ec03e" style="width: 100.0%; height: 100.0%;">営業時間：07:00～22:00  無線LAN：あり</div>`)[0];
+            popup_35dbd5eacb7d4f2dafc86a4f4060a5e5.setContent(html_6bbedfe985bc43a393dd584c742ec03e);
+        
+
+        marker_ea519aaca9bd4fefa6a2debe31ce497a.bindPopup(popup_35dbd5eacb7d4f2dafc86a4f4060a5e5)
+        ;
+
+        
+    
+    
+            marker_ea519aaca9bd4fefa6a2debe31ce497a.bindTooltip(
+                `<div>
+                     【広島駅】ekie広島店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72dda7a8720b4284a59ba54ae0114d90 = L.marker(
+                [33.88654923, 130.8824174],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_9c34f14a9ffc488d83fd98ae445de671 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_72dda7a8720b4284a59ba54ae0114d90.setIcon(icon_9c34f14a9ffc488d83fd98ae445de671);
+        
+    
+        var popup_7fe1990fb3ad43d4b5620a69d0b47b4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb2a46bd782348e9afb59002ce238700 = $(`<div id="html_eb2a46bd782348e9afb59002ce238700" style="width: 100.0%; height: 100.0%;">営業時間：07:00～22:00  無線LAN：あり</div>`)[0];
+            popup_7fe1990fb3ad43d4b5620a69d0b47b4a.setContent(html_eb2a46bd782348e9afb59002ce238700);
+        
+
+        marker_72dda7a8720b4284a59ba54ae0114d90.bindPopup(popup_7fe1990fb3ad43d4b5620a69d0b47b4a)
+        ;
+
+        
+    
+    
+            marker_72dda7a8720b4284a59ba54ae0114d90.bindTooltip(
+                `<div>
+                     【小倉駅】アミュプラザ小倉店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30fb3b25d7b64bc692025afa1aa0fdb9 = L.marker(
+                [33.59032751, 130.4199908],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_ef44b05168974c2181567c9e5cbc1b29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_30fb3b25d7b64bc692025afa1aa0fdb9.setIcon(icon_ef44b05168974c2181567c9e5cbc1b29);
+        
+    
+        var popup_38d3913fda134059976b14cc21b06a12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96f5eb16de584d9c866dbc9e58f48451 = $(`<div id="html_96f5eb16de584d9c866dbc9e58f48451" style="width: 100.0%; height: 100.0%;">営業時間：10:00～20:00  無線LAN：あり</div>`)[0];
+            popup_38d3913fda134059976b14cc21b06a12.setContent(html_96f5eb16de584d9c866dbc9e58f48451);
+        
+
+        marker_30fb3b25d7b64bc692025afa1aa0fdb9.bindPopup(popup_38d3913fda134059976b14cc21b06a12)
+        ;
+
+        
+    
+    
+            marker_30fb3b25d7b64bc692025afa1aa0fdb9.bindTooltip(
+                `<div>
+                     【博多駅】アミュプラザ博多店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bdd041a9ab440c2bd2587b32180cd05 = L.marker(
+                [32.79032508, 130.6886078],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_1a79edc2242a4817b6121c92af65b47b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_8bdd041a9ab440c2bd2587b32180cd05.setIcon(icon_1a79edc2242a4817b6121c92af65b47b);
+        
+    
+        var popup_bf660c70e9924066b8b2a06e6cb78b43 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2080957e645f446d8370c0eac16a939d = $(`<div id="html_2080957e645f446d8370c0eac16a939d" style="width: 100.0%; height: 100.0%;">営業時間：07:00～22:00  無線LAN：あり</div>`)[0];
+            popup_bf660c70e9924066b8b2a06e6cb78b43.setContent(html_2080957e645f446d8370c0eac16a939d);
+        
+
+        marker_8bdd041a9ab440c2bd2587b32180cd05.bindPopup(popup_bf660c70e9924066b8b2a06e6cb78b43)
+        ;
+
+        
+    
+    
+            marker_8bdd041a9ab440c2bd2587b32180cd05.bindTooltip(
+                `<div>
+                     【熊本駅】熊本駅店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a4c3089a16b4e4e8590b00e922303a0 = L.marker(
+                [31.58397007, 130.5424216],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_cbe27dd10a754d1d9f09738252e0b1da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_5a4c3089a16b4e4e8590b00e922303a0.setIcon(icon_cbe27dd10a754d1d9f09738252e0b1da);
+        
+    
+        var popup_cae99e3dedb34104ab0767efcc649ce8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1122f8c1279946b89351e299e4482f16 = $(`<div id="html_1122f8c1279946b89351e299e4482f16" style="width: 100.0%; height: 100.0%;">営業時間：07:00～22:30  無線LAN：あり</div>`)[0];
+            popup_cae99e3dedb34104ab0767efcc649ce8.setContent(html_1122f8c1279946b89351e299e4482f16);
+        
+
+        marker_5a4c3089a16b4e4e8590b00e922303a0.bindPopup(popup_cae99e3dedb34104ab0767efcc649ce8)
+        ;
+
+        
+    
+    
+            marker_5a4c3089a16b4e4e8590b00e922303a0.bindTooltip(
+                `<div>
+                     【鹿児島駅】アミュプラザ鹿児島 プレミアム館1階店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_281b0b584d854c9ca43f667b4c422f8d = L.marker(
+                [31.58483485, 130.5427843],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_f1aab131b6d447c19c3ee0550ea50ec2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_281b0b584d854c9ca43f667b4c422f8d.setIcon(icon_f1aab131b6d447c19c3ee0550ea50ec2);
+        
+    
+        var popup_699488367a6d443abfa49454d1e99712 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cddcb5558ba642bca3933aa517a4f5a3 = $(`<div id="html_cddcb5558ba642bca3933aa517a4f5a3" style="width: 100.0%; height: 100.0%;">営業時間：月～木：10:00～20:30 金土日祝：10:00～21:00  無線LAN：あり</div>`)[0];
+            popup_699488367a6d443abfa49454d1e99712.setContent(html_cddcb5558ba642bca3933aa517a4f5a3);
+        
+
+        marker_281b0b584d854c9ca43f667b4c422f8d.bindPopup(popup_699488367a6d443abfa49454d1e99712)
+        ;
+
+        
+    
+    
+            marker_281b0b584d854c9ca43f667b4c422f8d.bindTooltip(
+                `<div>
+                     【鹿児島駅】アミュプラザ鹿児島 本館2階店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_460e9fffb9994ca9a682cd18b2aeefec = L.marker(
+                [37.44714898, 138.8536266],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_2c616d72dc164075940f268130c1576c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_460e9fffb9994ca9a682cd18b2aeefec.setIcon(icon_2c616d72dc164075940f268130c1576c);
+        
+    
+        var popup_4604a14bfb804ff3a044f4c7a7ddcb59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4b6cf2b349046c8be7315d178996b80 = $(`<div id="html_a4b6cf2b349046c8be7315d178996b80" style="width: 100.0%; height: 100.0%;">営業時間：07:00～22:00  無線LAN：あり</div>`)[0];
+            popup_4604a14bfb804ff3a044f4c7a7ddcb59.setContent(html_a4b6cf2b349046c8be7315d178996b80);
+        
+
+        marker_460e9fffb9994ca9a682cd18b2aeefec.bindPopup(popup_4604a14bfb804ff3a044f4c7a7ddcb59)
+        ;
+
+        
+    
+    
+            marker_460e9fffb9994ca9a682cd18b2aeefec.bindTooltip(
+                `<div>
+                     【長岡駅】CoCoLo長岡店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_313a062250e04658b60d6a4b58aa680c = L.marker(
+                [37.91218856, 139.0604574],
+                {}
+            ).addTo(map_bc55c3268ae043b6a3030fd50bbd6446);
+        
+    
+            var icon_dbcdb14f60a84fd7b8d00ed3d35bede7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star-empty", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_313a062250e04658b60d6a4b58aa680c.setIcon(icon_dbcdb14f60a84fd7b8d00ed3d35bede7);
+        
+    
+        var popup_943e3c5b1a054095bab5fbb8c56d93b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e24eb3b8f9548bbbf1ec0825ce3fd81 = $(`<div id="html_0e24eb3b8f9548bbbf1ec0825ce3fd81" style="width: 100.0%; height: 100.0%;">営業時間：07:00～22:00  無線LAN：あり</div>`)[0];
+            popup_943e3c5b1a054095bab5fbb8c56d93b1.setContent(html_0e24eb3b8f9548bbbf1ec0825ce3fd81);
+        
+
+        marker_313a062250e04658b60d6a4b58aa680c.bindPopup(popup_943e3c5b1a054095bab5fbb8c56d93b1)
+        ;
+
+        
+    
+    
+            marker_313a062250e04658b60d6a4b58aa680c.bindTooltip(
+                `<div>
+                     【新潟駅】CoCoLo新潟西館店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
